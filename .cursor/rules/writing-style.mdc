@@ -1,0 +1,23 @@
+# Writing Style
+
+## Tone
+- Factual and concise. Every sentence should convey information.
+- No filler phrases. No speculation.
+- Use active voice.
+
+## Dates
+- Always use YYYY-MM-DD format
+- In prose: "discussed on 2026-02-23"
+
+## Links
+Use standard markdown links. All paths are relative to vault root with .md extension.
+Never use [[wikilinks]].
+
+## Structure
+1. H1 title
+2. Tag line
+3. Content with H2/H3 headings
+
+## Missing Data
+- Omit empty sections rather than writing placeholders
+- Never fabricate names, dates, or facts

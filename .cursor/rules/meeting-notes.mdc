@@ -1,0 +1,33 @@
+# Meeting Notes Format
+
+## File Naming
+- Recurring meetings: `YYYY-MM-DD.md`
+- Dated events with topic: `YYYY-MM-DD - Topic.md`
+- All meeting notes live under `**/meetings/` folders
+
+## Note Structure
+
+```markdown
+# YYYY-MM-DD
+#work/{folder-path}
+
+## Meeting Summary
+- Key point 1
+- Key point 2
+
+## Key Discussion Points
+### Topic Name
+- Details and context
+
+## Action Items
+- [ ] Task description @Owner 📅 YYYY-MM-DD ([source](path/to/note.md))
+
+## Follow-Up
+- Follow-up item 1
+```
+
+## 1-on-1 Meetings
+
+Each 1-on-1 series has its own folder: `1-on-1-{name}/`
+The folder contains a `Summary.md` — an incremental summary maintained across meetings.
+`Summary.md` has a `## Summarized Meetings` ledger tracking which notes have been processed.

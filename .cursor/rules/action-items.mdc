@@ -1,0 +1,28 @@
+# Action Item Format
+
+All action items use checkbox format for consistency.
+
+## Syntax
+
+```markdown
+- [ ] Task description @Owner 📅 YYYY-MM-DD ⏫ ([source](path/to/note.md))
+```
+
+## Elements
+
+| Element | Format | Required |
+|---|---|---|
+| Checkbox | `- [ ]` open, `- [x]` done | Yes |
+| Description | Free text describing the task | Yes |
+| Owner | `@Name` | Yes |
+| Due date | `📅 YYYY-MM-DD` | Only if deadline known |
+| Priority | `⏫` high, `🔼` medium, `🔽` low | Optional |
+| Source | `([display](path/to/note.md))` | Yes |
+
+## Canonical Location
+
+Open tasks live in `**/Summary.md` files, not in individual meeting notes.
+When summarizing meetings, merge action items into Summary.md:
+1. New items: add as `- [ ]`
+2. Completed items: change to `- [x]`
+3. Duplicates: merge into one entry using earliest source

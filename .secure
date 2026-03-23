@@ -1,0 +1,5 @@
+# Patterns matching directory names to encrypt before git commit.
+# One pattern per line. Shell glob syntax (e.g. 1-on-1-* matches all 1-on-1 folders).
+# Lines starting with # are comments.
+
+1-on-1-*

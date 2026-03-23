@@ -1,0 +1,63 @@
+# Vault Structure
+
+## Root Level
+
+| Folder | Purpose |
+|---|---|
+| `team-a/` | Team directory — products, meetings, reference docs |
+| `initiatives/` | Time-bound strategic goals |
+| `people/` | Person profiles (paired JSON + MD per person) |
+| `wraps/` | Hierarchical time-based summaries |
+| `Todos.md` | Static task list grouped by owner and priority |
+
+## team-a/ — Product-per-Directory Model
+
+Each product has its own directory with a standard layout:
+- `product.md` — entry point describing what we own and current state
+- `meetings/` — product-specific meetings
+- Additional reference docs co-located with the product
+
+```
+team-a/
+├── team.md
+├── product-x/
+│   ├── product.md
+│   └── meetings/
+├── product-y/
+│   ├── product.md
+│   └── meetings/
+├── reference/
+└── meetings/
+    ├── 1-on-1-{name}/
+    ├── weekly-sync/
+    └── adhoc/
+```
+
+## Meetings Folders
+
+A `meetings/` subfolder can exist anywhere in the vault. All paths matching `**/meetings/**` are meeting notes.
+
+## wraps/ Hierarchy
+
+```
+wraps/
+└── YYYY/
+    ├── Qx.md
+    └── MM/
+        ├── month.md
+        └── Www/
+            ├── week.md
+            └── YYYY-MM-DD.md
+```
+
+## Naming Conventions
+
+| Pattern | Usage | Location |
+|---|---|---|
+| `YYYY-MM-DD.md` | Recurring meetings | `**/meetings/` |
+| `YYYY-MM-DD - Topic.md` | Dated events | `**/meetings/` |
+| `product.md` | Product area entry point | `team-a/{product}/` |
+| `Summary.md` | Incremental meeting summary | `**/meetings/{series}/` |
+| `Qx.md` | Quarterly wraps | `wraps/YYYY/` |
+| `month.md` | Monthly wraps | `wraps/YYYY/MM/` |
+| `week.md` | Weekly wraps | `wraps/YYYY/MM/Www/` |

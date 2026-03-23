@@ -1,0 +1,13 @@
+{
+  "slug": "martinez-bob",
+  "name": "Martinez, Bob",
+  "email": "bob.martinez@example.com",
+  "title": "Engineer",
+  "department": "Platform Engineering",
+  "reportsTo": "Me",
+  "source": "MANUAL",
+  "nicknames": ["Bob"],
+  "notes": "Works primarily on Developer Portal (Product Y). Bi-weekly 1-on-1. Certified in Backstage plugins.",
+  "initiatives": ["portal-search", "scaffolder-plugin"],
+  "lastUpdated": "2026-03-12"
+}

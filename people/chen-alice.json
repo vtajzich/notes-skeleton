@@ -1,0 +1,13 @@
+{
+  "slug": "chen-alice",
+  "name": "Chen, Alice",
+  "email": "alice.chen@example.com",
+  "title": "Senior Engineer",
+  "department": "Platform Engineering",
+  "reportsTo": "Me",
+  "source": "MANUAL",
+  "nicknames": ["Alice"],
+  "notes": "Product owner for API Gateway (Product X). Weekly 1-on-1 Mondays. Pursuing tech lead path.",
+  "initiatives": ["v2-api-migration"],
+  "lastUpdated": "2026-03-10"
+}
