@@ -1,10 +1,12 @@
 # AI-Managed Knowledge Base — Starter Template
 
+This template accompanies the article [I Stopped Using Note-Taking Apps. Now an AI Agent Manages My Knowledge Base.](https://medium.com/@v.tajzich/my-notes-are-always-current-not-because-im-organized-3f2be972cff6) on Medium (if you are not medium member, see the article in GitHub [docs/article](docs/article/README.md))
+
+The example content tells a coherent story (API gateway migration, developer portal search, onboarding v2, incident debrief) to demonstrate how notes, summaries, wraps, tasks, and people profiles connect across the system.
+
 A template repository for building a personal knowledge management system powered by AI agents and plain markdown files.
 
 Instead of relying on a note-taking app's features, this system encodes your organizational conventions as **rules** and **commands** that an AI agent (Cursor, Windsurf, or similar) executes against plain text files. When your requirements change, you edit a rule — not a database schema, not a plugin config, not a template. The system adapts immediately.
-
-See the article in [docs/article](docs/article/README.md)
 
 ## What's Inside
 
@@ -102,9 +104,3 @@ The scripts assume a Cursor plugin for Jira sync (`$HOME/.cursor/plugins/jira-to
 Directories matching patterns in `.secure` are automatically encrypted before git commit and decrypted after pull. Uses AES-256-CBC via OpenSSL. The encryption key is stored in your shell environment, not in the repo.
 
 By default, `1-on-1-*` directories are encrypted. Edit `.secure` to add or remove patterns.
-
-## Background
-
-This template accompanies the article [I Stopped Using Note-Taking Apps. Now an AI Agent Manages My Knowledge Base.](https://medium.com/@v.tajzich/my-notes-are-always-current-not-because-im-organized-3f2be972cff6) on Medium.
-
-The example content tells a coherent story (API gateway migration, developer portal search, onboarding v2, incident debrief) to demonstrate how notes, summaries, wraps, tasks, and people profiles connect across the system.
