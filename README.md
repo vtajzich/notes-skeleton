@@ -4,7 +4,7 @@ A template repository for building a personal knowledge management system powere
 
 Instead of relying on a note-taking app's features, this system encodes your organizational conventions as **rules** and **commands** that an AI agent (Cursor, Windsurf, or similar) executes against plain text files. When your requirements change, you edit a rule — not a database schema, not a plugin config, not a template. The system adapts immediately.
 
-See the article in [docs:article](docs:article/README.md)
+See the article in [docs/article](docs/article/README.md)
 
 ## What's Inside
 
@@ -105,6 +105,6 @@ By default, `1-on-1-*` directories are encrypted. Edit `.secure` to add or remov
 
 ## Background
 
-This template accompanies the article [I Stopped Using Note-Taking Apps. Now an AI Agent Manages My Knowledge Base.](#) on Medium.
+This template accompanies the article [I Stopped Using Note-Taking Apps. Now an AI Agent Manages My Knowledge Base.](https://medium.com/@v.tajzich/my-notes-are-always-current-not-because-im-organized-3f2be972cff6) on Medium.
 
 The example content tells a coherent story (API gateway migration, developer portal search, onboarding v2, incident debrief) to demonstrate how notes, summaries, wraps, tasks, and people profiles connect across the system.
